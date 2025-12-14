@@ -1,6 +1,6 @@
 # RNA Associations Clustering Analysis
 
-## 📌 Overview
+##  Overview
 
 This project implements an **end-to-end unsupervised learning pipeline** to analyze and segment associations registered in the **Répertoire National des Associations (RNA)**.
 
@@ -9,7 +9,7 @@ The results are designed to support **public-sector analytics**, territorial stu
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Segment active associations into meaningful clusters
 - Capture structural differences related to:
@@ -43,7 +43,7 @@ The dataset includes information on:
 
 ---
 
-## 🏗️ Data Warehouse Context
+##  Data Warehouse Context
 
 The RNA data is integrated into a **SQL Server data warehouse (DW_Asso)** using a star schema architecture.
 
@@ -52,7 +52,7 @@ The project assumes **read-only access** to a pre-existing structured data wareh
 
 ---
 
-## ⚙️ Technologies & Tools
+##  Technologies & Tools
 
 - **Python 3**
 - **SQL Server** (via `pyodbc`)
@@ -65,7 +65,7 @@ The project assumes **read-only access** to a pre-existing structured data wareh
 
 ---
 
-## 🔄 Methodology
+##  Methodology
 
 ### 1. Data Extraction
 - SQL query joining fact and dimension tables
@@ -126,7 +126,5 @@ Each cluster is described using:
 
 Clusters are manually labeled to ensure **interpretability and policy relevance**.
 
----
 
-## 📁 Repository Structure
 
